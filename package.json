@@ -1,0 +1,27 @@
+{
+  "name": "tdd-string-calculator",
+  "version": "1.0.0",
+  "description": "A simple string calculator implemented using Test-Driven Development (TDD) principles.",
+  "homepage": "https://github.com/gtrrz-victor/tdd-string-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/gtrrz-victor/tdd-string-calculator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtrrz-victor/tdd-string-calculator.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
