@@ -38,7 +38,9 @@ Requirements:
 
     “1,-2” is invalid and should return the message “Negative number(s) not allowed: -2”
     “2,-4,-9” is invalid and should return the message “Negative number(s) not allowed: -4, -9”
-    
+
 1. Calling add with multiple errors will return all error messages separated by newlines.
 
     “//|\n1|2,-3” is invalid and return the message “Negative number(s) not allowed: -3\n’|’ expected but ‘,’ found at position 3.”
+
+1. Numbers bigger than 1000 should be ignored, so adding 2 + 1001 = 2
