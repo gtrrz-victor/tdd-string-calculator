@@ -13,3 +13,8 @@ Requirements:
 1. The method can take up to two numbers, separated by commas, and will return their sum as a result. So the inputs can be: “”, “1”, “1,2”. For an empty string, it will return 0.
 
 1. Allow the add method to handle an unknown number of arguments
+
+1. Allow the add method to handle newlines as separators, instead of comas
+
+    “1,2\n3” should return “6”
+    “2,\n3” is invalid, but no need to clarify it with the program
