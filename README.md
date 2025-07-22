@@ -12,3 +12,4 @@ Requirements:
 
 1. The method can take up to two numbers, separated by commas, and will return their sum as a result. So the inputs can be: “”, “1”, “1,2”. For an empty string, it will return 0.
 
+1. Allow the add method to handle an unknown number of arguments
